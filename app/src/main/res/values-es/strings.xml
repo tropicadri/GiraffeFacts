@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Jirafas Datos curiosos</string>
+    <string name="emoji_button">Ver dato curioso %s</string>
+    <string-array name="facts">
+        <item>🦒 Las jirafas 🦒 son los mamíferos más altos de la Tierra. Sus piernas solas son más altas que muchos
+            humanos, unos 2 metros. </item>
+                
+        <item>🦒 Pueden correr hasta a 35 millas por hora en distancias cortas, o navegar a 10 mph para distancias más largas
+        </item>
+                
+        <item>🦒 El cuello de una jirafa es demasiado corto para llegar al suelo. Como resultado, tiene que extender
+            torpemente sus patas delanteras o arrodíllarse para alcanzar el suelo para tomar agua         
+        </item>
+                
+        <item>🦒 Las jirafas 🦒 solo necesitan beber una vez cada pocos días. La mayor parte de su agua proviene de todas las
+            plantas que comen.
+                    
+        </item>
+                
+        <item>🦒 Las jirafas 🦒 pasan la mayor parte de sus vidas de pie; incluso duermen y dan a luz de pie.</item>
+                
+        <item>La cría de jirafa 🦒 puede ponerse de pie y caminar después de aproximadamente una hora y en una semana,
+            comienza a tomar muestras
+                        vegetación </item>
+                
+        <item>A pesar de los intentos de las hembras de pararse sobre sus pantorrillas durante los ataques de leones,
+            hienas manchadas, leopardos
+                        y perros salvajes africanos , muchos terneros son asesinados en sus primeros meses.
+                    
+        </item>
+                
+        <item>Las manchas de una jirafa son muy parecidas a las huellas dactilares humanas. No hay dos jirafas
+            individuales que tengan exactamente lo mismo
+                        modelo.
+                    
+        </item>
+                
+        <item>Tanto las 🦒 jirafas male masculinas como las femeninas tienen dos cuernos distintos cubiertos de pelo
+            llamados osiconas. Uso de jirafas machos
+                        sus cuernos para pelear a veces con otros machos.
+                    
+        </item>
+                
+        <item>🦒 Jirafas 🦒 ¡solo necesita de 5 a 30 minutos de sueño en un período de 24 horas! A menudo logran eso en
+            siestas rápidas
+                        eso puede durar solo un minuto o dos a la vez.
+                    
+        </item>
+                
+        <item>Si bien se pensaba que las 🦒 jirafas 🦒 no emitían ningún sonido, ahora se sabe que esto no es cierto, ya
+            que las jirafas
+                        bramidos, resoplar, silbar y hacer sonidos de flauta, así como ruidos de tono bajo más allá del
+            alcance de los humanos
+                        audición.
+                    
+        </item>
+    </string-array>
+</resources>
