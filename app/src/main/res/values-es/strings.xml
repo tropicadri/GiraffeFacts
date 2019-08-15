@@ -1,66 +1,43 @@
 <resources>
     <string name="app_name">JiraDatos</string>
-    <string name="emoji_button">Ver dat curioso %s </string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">GiraFacts</string>
-    <string name="nav_header_subtitle">Facts about giraffes</string>
+    <string name="emoji_button">Ver dato curioso %s </string>
+    <string name="navigation_drawer_open">Abrir navegación</string>
+    <string name="navigation_drawer_close">Cerrar navegación</string>
+    <string name="nav_header_title">JiraDatos</string>
+    <string name="nav_header_subtitle">Datos curiosos de jirafas</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="menu_sources">Sources</string>
+    <string name="menu_sources">Fuentes</string>
     <string name="menu_item_dosomething_org">dosomething.org</string>
-    <string name="menu_donate">Donate</string>
+    <string name="menu_donate">Donar</string>
+
     <string-array name="facts">
-        <item>🦒 Las jirafas 🦒 son los mamíferos más altos de la Tierra. Sus piernas solas son más altas que muchos
-            humanos, unos 2 metros. </item>
-                
-        <item>🦒 Pueden correr hasta a 35 millas por hora en distancias cortas, o navegar a 10 mph para distancias más largas
-        </item>
-                
-        <item>🦒 El cuello de una jirafa es demasiado corto para llegar al suelo. Como resultado, tiene que extender
-            torpemente sus patas delanteras o arrodíllarse para alcanzar el suelo para tomar agua         
-        </item>
-                
-        <item>🦒 Las jirafas 🦒 solo necesitan beber una vez cada pocos días. La mayor parte de su agua proviene de todas las
-            plantas que comen.
-                    
-        </item>
-                
+        <item>🦒 Pueden correr hasta a 35 millas por hora en distancias cortas, o navegar a 10 mph para distancias más largas</item>
         <item>🦒 Las jirafas 🦒 pasan la mayor parte de sus vidas de pie; incluso duermen y dan a luz de pie.</item>
-                
         <item>La cría de jirafa 🦒 puede ponerse de pie y caminar después de aproximadamente una hora y en una semana,
-            comienza a tomar muestras
-                        vegetación </item>
-                
-        <item>A pesar de los intentos de las hembras de pararse sobre sus pantorrillas durante los ataques de leones,
-            hienas manchadas, leopardos
-                        y perros salvajes africanos , muchos terneros son asesinados en sus primeros meses.
-                    
+            comienza a tomar muestras de vegetación </item>
+        <item>A pesar de los intentos de las hembras de proteger a sus crías durante los ataques de leones,
+            hienas manchadas, leopardos y perros salvajes africanos, muchas crías son asesinadas en sus primeros meses de vida.        
         </item>
-                
         <item>Las manchas de una jirafa son muy parecidas a las huellas dactilares humanas. No hay dos jirafas
-            individuales que tengan exactamente lo mismo
-                        modelo.
-                    
-        </item>
-                
-        <item>Tanto las 🦒 jirafas male masculinas como las femeninas tienen dos cuernos distintos cubiertos de pelo
-            llamados osiconas. Uso de jirafas machos
-                        sus cuernos para pelear a veces con otros machos.
-                    
-        </item>
-                
+        individuales que tengan exactamente el mismo patrón.</item>
         <item>🦒 Jirafas 🦒 ¡solo necesita de 5 a 30 minutos de sueño en un período de 24 horas! A menudo logran eso en
-            siestas rápidas
-                        eso puede durar solo un minuto o dos a la vez.
-                    
+            siestas rápidas que duran solo un minuto o dos a la vez.        
         </item>
-                
         <item>Si bien se pensaba que las 🦒 jirafas 🦒 no emitían ningún sonido, ahora se sabe que esto no es cierto, ya
-            que las jirafas
-                        bramidos, resoplar, silbar y hacer sonidos de flauta, así como ruidos de tono bajo más allá del
-            alcance de los humanos
-                        audición.
-                    
+            que las jirafas braman, resoplan, silban y hacen sonidos similares a las flautas, así como ruidos de tono bajo más allá del
+            alcance de la audición humana.        
         </item>
+        <item>Hay cuatro especies distintas de jirafas: la jirafa del norte Giraffa camelopardalis, la jirafa del sur Giraffa, la jirafa reticulada G. reticulata y la jirafa Masai G. tippelskirchi. </item>
+        <item> Las jirafas 🦒 ya están extintas en al menos siete países de África. </item>
+        <item> Los pies de jirafa 🦒  son del tamaño de un plato con un diámetro de 30 cm. </item>
+        <item> Las lenguas de jirafa 🦒 son de color púrpura azulado y miden entre 45 y 50 cm de largo. </item>
+        <item> Tanto la jirafa macho como la hembra 🦒 ya tienen cuernos al nacer. Estas osiconas se encuentran planas y no están unidas al cráneo para evitar lesiones al nacer. Solo se fusionan con el cráneo más adelante en la vida. </item>
+        <item> La jirafa 🦒 es el mamífero más alto del mundo. Incluso la jirafa recién nacida es más alta que la mayoría de los humanos. </item>
+        <item> Jirafa hembra 🦒 dar a luz de pie. Sus crías caen unos 2 m al suelo y pueden pararse dentro de una hora después del nacimiento. </item>
+        <item> En algunas poblaciones, más del 50% de todas las crías de jirafas no sobreviven su primer año. </item>
+        <item> El cuello de una jirafa es demasiado corto para llegar al suelo. Para beber, la jirafa primero tiene que extender las patas delanteras y / o doblar las rodillas, y solo entonces pueden bajar el cuello para llegar a la superficie del agua. </item>
+        <item> Las jirafas 🦒 solo beben una vez cada pocos días. Incluso cuando el agua está fácilmente disponible, la evidencia muestra que muchas jirafas no beben regularmente, a veces en absoluto. </item>
+        <item> Para proteger el cerebro de la jirafa de los cambios repentinos en la presión arterial cuando baja la cabeza para beber, tiene válvulas para detener el flujo de retorno de la sangre y vasos de paredes elásticas que se dilatan y se contraen para controlar el flujo. La NASA ha realizado investigaciones sobre los vasos sanguíneos en las patas de jirafa para obtener inspiración para los trajes espaciales humanos. </item>
+        <item> Un corazón de jirafa pesa aproximadamente 11 kilogramos y es el más grande de todos los mamíferos terrestres. Se usa para bombear 60 litros de sangre alrededor de su cuerpo cada minuto a una presión arterial dos veces mayor que la de un humano promedio. </item>
     </string-array>
 </resources>

@@ -11,7 +11,6 @@
     <string name="menu_donate">Donate</string>
     <string name="menu_item_gcf" translatable="false">GCF</string>
     <string-array name="facts">
-
         <item> 🦒 They can run as fast as 35 miles an hour over short distances, or cruise at 10 mph over longer
             distances.
         </item>
@@ -20,7 +19,7 @@
             vegetation.
         </item>
         <item>Despite the females\’ attempts to stand over their calves during attacks by lions, spotted hyenas, leopards
-            and African wild dogs (4), many calves are killed in their first few months.
+            and African wild dogs, many calves are killed in their first few months.
         </item>
         <item>A giraffe\’s 🦒 spots are much like human fingerprints. No two individual giraffes have exactly the same
             pattern.

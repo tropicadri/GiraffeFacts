@@ -1,4 +1,4 @@
-package com.example.giraffefacts
+package com.naranjaconsal.giraffefacts
 
 import org.junit.Test
 

@@ -1,10 +1,9 @@
-package com.example.giraffefacts
+package com.naranjaconsal.giraffefacts
 
 
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
@@ -31,7 +30,7 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
     lateinit var factTextView: TextView
     private lateinit var drawer: DrawerLayout
     private lateinit var toggle: ActionBarDrawerToggle
-    private var lastFact = -1;
+    private var lastFact = -1
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,11 +47,11 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             .setReplaceAll(true)
             .registerInitCallback(object : EmojiCompat.InitCallback() {
                 override fun onInitialized() {
-                    Log.i(tag, "EmojiCompat initialized")
+                    //Log.i(tag, "EmojiCompat initialized")
                 }
 
                 override fun onFailed(throwable: Throwable?) {
-                    Log.e(tag, "EmojiCompat initialization failed", throwable)
+                    //Log.e(tag, "EmojiCompat initialization failed", throwable)
                 }
             })
 

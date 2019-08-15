@@ -1,4 +1,4 @@
-package com.example.giraffefacts
+package com.naranjaconsal.giraffefacts
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
