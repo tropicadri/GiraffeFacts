@@ -1,22 +1,19 @@
 <resources>
-    <string name="app_name">Giraffe Facts</string>
+    <string name="app_name">GiraFacts</string>
     <string name="emoji_button">Show %s Fact</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">GiraFacts</string>
+    <string name="nav_header_subtitle">Facts about giraffes</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="fact_source">Source:\n</string>
+    <string name="menu_sources">Sources</string>
+    <string name="menu_item_dosomething_org">dosomething.org</string>
+    <string name="menu_donate">Donate</string>
+    <string name="menu_item_gcf" translatable="false">GCF</string>
     <string-array name="facts">
-        <item> 🦒 Giraffes 🦒  are the tallest mammals on Earth. Their legs alone are taller than many humans—about 6 feet.
-        </item>
+
         <item> 🦒 They can run as fast as 35 miles an hour over short distances, or cruise at 10 mph over longer
             distances.
-        </item>
-        <item> 🦒 A giraffe\'s neck is too short to reach the ground. As a result, it has to awkwardly spread its front legs
-            or kneel to reach the ground for a drink of water.
-        </item>
-        <item> 🦒 Giraffes 🦒  only need to drink once every few days. Most of their water comes from all the plants they eat.
         </item>
         <item>🦒 Giraffes 🦒  spend most of their lives standing up; they even sleep and give birth standing up.</item>
         <item>The giraffe calf 🦒  can stand up and walk after about an hour and within a week, it starts to sample
@@ -28,15 +25,25 @@
         <item>A giraffe\’s 🦒 spots are much like human fingerprints. No two individual giraffes have exactly the same
             pattern.
         </item>
-        <item>Both male and female 🦒 giraffes 🦒 have two distinct, hair-covered horns called ossicones. Male giraffes use
-            their horns to sometimes fight with other males.
-        </item>
         <item> 🦒 Giraffes 🦒  only need 5 to 30 minutes of sleep in a 24-hour period! They often achieve that in quick naps
             that may last only a minute or two at a time.
         </item>
         <item>Whilst it was thought that 🦒 giraffes 🦒  did not make any sounds, this is now known to be untrue, as giraffes
             bellow, snort, hiss and make flute-like sounds, as well as low pitch noises beyond the range of human
-            hearing.
-        </item>
+            hearing.</item>
+        <item>
+        There are four distinct species of giraffe: Northern giraffe Giraffa camelopardalis, Southern giraffe giraffa, Reticulated giraffe G. reticulata and Masai giraffe G. tippelskirchi.</item>
+        <item>Giraffe 🦒 are already extinct in at least seven countries in Africa.</item>
+
+        <item>Giraffe 🦒 feet are the size of a dinner plate with a diameter of 30 cm.</item>
+        <item>Giraffe 🦒 tongues are bluish-purple and between 45 and 50 cm long.</item>
+        <item>Both male and female giraffe 🦒 have horns already at birth. These ossicones lie flat and are not attached to the skull to avoid injury at birth. They only fuse with the skull later in life.</item>
+        <item>The giraffe 🦒 is the tallest mammal in the world. Even newborn giraffe are taller than most humans.</item>
+        <item>Female giraffe 🦒 give birth standing up. Their young fall about 2 m to the ground and can stand up within an hour of birth.</item>
+        <item>In some populations, over 50% of all giraffe 🦒 calves do not survive their first year.</item>
+        <item>A giraffe\’s 🦒 neck is too short to reach the ground. To drink, giraffe first have to splay their forelegs and/or bend their knees, and only then can they lower their necks to reach the surface of the water.</item>
+        <item>Giraffe 🦒 only drink once every few days. Even when water is readily available, evidence shows that many giraffe do not drink regularly – sometimes not at all.</item>
+        <item>To protect the giraffe\’s 🦒 brain from sudden changes in blood pressure when it lowers its head to drink, it has valves to stop the back-flow of blood and elastic-walled vessels that dilate and constrict to manage flow. NASA has done research on the blood vessels in giraffe legs to get inspiration for human space suits.</item>
+        <item>A giraffe 🦒 heart weighs approximately 11 kilograms and is the biggest of any land mammal. It is used to pump 60 litres of blood around its body every minute at a blood pressure twice that of an average human.</item>
     </string-array>
 </resources>

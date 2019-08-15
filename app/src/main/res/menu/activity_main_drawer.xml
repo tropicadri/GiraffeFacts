@@ -3,24 +3,24 @@
         xmlns:tools="http://schemas.android.com/tools"
         tools:showIn="navigation_view">
     <group android:id="@+id/group_menu">
-        <item android:title="Sources">
+        <item android:title="@string/menu_sources">
             <menu>
                 <item
                         android:id="@+id/do_some"
-                        android:title="Do something" />
+                        android:title="@string/menu_item_dosomething_org" />
                 <item
                         android:id="@+id/gira_fund"
-                        android:title="Girae fund" />
+                        android:title="@string/menu_item_gcf" />
             </menu>
         </item>
     </group>
 
     <group android:id="@+id/group_menu2">
-        <item android:title="Donate">
+        <item android:title="@string/menu_donate">
             <menu>
                 <item
                         android:id="@+id/donate"
-                        android:title="Do something" />
+                        android:title="@string/menu_item_gcf" />
 
             </menu>
         </item>

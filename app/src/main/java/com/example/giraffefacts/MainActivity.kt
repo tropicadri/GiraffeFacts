@@ -31,6 +31,7 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
     lateinit var factTextView: TextView
     private lateinit var drawer: DrawerLayout
     private lateinit var toggle: ActionBarDrawerToggle
+    private var lastFact = -1;
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -86,10 +87,18 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
     }
 
     fun showFact(view: View) {
-        val nextFact = Random.nextInt(0, 10)
+        var nextFact = getNext()
+        if(nextFact == lastFact){
+            nextFact = getNext()
+        }
+        lastFact = nextFact
         val facts = resources.getStringArray(R.array.facts)
         val fact = facts[nextFact]
         factTextView.text = fact
+    }
+
+    private fun getNext():Int {
+        return Random.nextInt(0, 18)
     }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {
@@ -103,8 +112,6 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        // Handle presses on the action bar menu items
-        Log.i(tag, "!!!!!navigation clicked")
         var url: String? = null
 
         when (item?.itemId) {
@@ -129,8 +136,5 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         } else {
             super.onOptionsItemSelected(item)
         }
-
     }
-
-
 }

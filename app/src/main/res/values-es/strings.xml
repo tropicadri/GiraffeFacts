@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">Jirafas Datos curiosos</string>
-    <string name="emoji_button">Ver dato curioso %s</string>
+    <string name="app_name">JiraDatos</string>
+    <string name="emoji_button">Ver dat curioso %s </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">GiraFacts</string>
+    <string name="nav_header_subtitle">Facts about giraffes</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_sources">Sources</string>
+    <string name="menu_item_dosomething_org">dosomething.org</string>
+    <string name="menu_donate">Donate</string>
     <string-array name="facts">
         <item>🦒 Las jirafas 🦒 son los mamíferos más altos de la Tierra. Sus piernas solas son más altas que muchos
             humanos, unos 2 metros. </item>
