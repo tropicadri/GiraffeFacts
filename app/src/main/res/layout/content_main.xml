@@ -4,6 +4,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
         tools:showIn="@layout/app_bar_main">
 
 
@@ -24,15 +25,5 @@
             android:textSize="24sp"
             android:layout_marginRight="16dp"
             android:layout_marginLeft="16dp"/>
-
-    <TextView
-            android:text="@string/fact_source"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/text_view_source"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:autoLink="web"
-            android:gravity="bottom"
-            android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

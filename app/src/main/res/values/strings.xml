@@ -6,7 +6,7 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="fact_source">Source:\n https://www.dosomething.org/us/facts/11-facts-about-giraffes</string>
+    <string name="fact_source">Source:\n</string>
     <string-array name="facts">
         <item> 🦒 Giraffes 🦒  are the tallest mammals on Earth. Their legs alone are taller than many humans—about 6 feet.
         </item>

@@ -11,16 +11,23 @@ import android.widget.TextView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.core.provider.FontRequest
-import androidx.core.text.HtmlCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.emoji.text.EmojiCompat
 import androidx.emoji.text.FontRequestEmojiCompatConfig
 import kotlin.random.Random
+import android.content.Intent
+import android.net.Uri
+import com.google.android.material.navigation.NavigationView
 
-class MainActivity : AppCompatActivity() {
 
-    val TAG = "EmojiCompatApplication"
-    val EMOJI = "\ud83e\udd92"
+open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+
+
+    val tag = "EmojiCompatApplication"
+    val emoji = "\ud83e\udd92"
+    val doSomethingSource = "https://www.dosomething.org/us/facts/11-facts-about-giraffes"
+    val donateLink = "https://giraffeconservation.org/donate/"
+    val gcfSource = "https://giraffeconservation.org/facts/13-fascinating-giraffe-facts/"
     lateinit var factTextView: TextView
     private lateinit var drawer: DrawerLayout
     private lateinit var toggle: ActionBarDrawerToggle
@@ -40,11 +47,11 @@ class MainActivity : AppCompatActivity() {
             .setReplaceAll(true)
             .registerInitCallback(object : EmojiCompat.InitCallback() {
                 override fun onInitialized() {
-                    Log.i(TAG, "EmojiCompat initialized")
+                    Log.i(tag, "EmojiCompat initialized")
                 }
 
                 override fun onFailed(throwable: Throwable?) {
-                    Log.e(TAG, "EmojiCompat initialization failed", throwable)
+                    Log.e(tag, "EmojiCompat initialization failed", throwable)
                 }
             })
 
@@ -52,12 +59,14 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
+        val navigationView: NavigationView = findViewById(R.id.nav_view)
+        navigationView.setNavigationItemSelectedListener(this)
+
         val emojiButton: TextView = findViewById(R.id.button)
-        emojiButton.text = getString(R.string.emoji_button, EMOJI)
+        emojiButton.text = getString(R.string.emoji_button, emoji)
 
         factTextView = findViewById(R.id.fact_text_view)
 
-        HtmlCompat.fromHtml(getString(R.string.fact_source), HtmlCompat.FROM_HTML_MODE_LEGACY);
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -79,8 +88,8 @@ class MainActivity : AppCompatActivity() {
     fun showFact(view: View) {
         val nextFact = Random.nextInt(0, 10)
         val facts = resources.getStringArray(R.array.facts)
-        val fact = facts[nextFact];
-        factTextView.text = fact;
+        val fact = facts[nextFact]
+        factTextView.text = fact
     }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {
@@ -93,10 +102,35 @@ class MainActivity : AppCompatActivity() {
         toggle.onConfigurationChanged(newConfig)
     }
 
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        if (toggle.onOptionsItemSelected(item)) {
-            return true
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        // Handle presses on the action bar menu items
+        Log.i(tag, "!!!!!navigation clicked")
+        var url: String? = null
+
+        when (item?.itemId) {
+            R.id.do_some -> {
+                url = doSomethingSource
+
+            }
+            R.id.donate -> {
+                url = donateLink
+            }
+            R.id.gira_fund -> {
+                url = gcfSource
+            }
+
         }
-        return super.onOptionsItemSelected(item)
+
+        return if (url != null) {
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+            startActivity(browserIntent)
+            true
+
+        } else {
+            super.onOptionsItemSelected(item)
+        }
+
     }
+
+
 }
